@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jyoti Nayak — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">JN<span>.</span></div>
+  <ul>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certs">Certifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <div class="hero-tag">
+      <span class="tag-dot"></span>
+      Available for Opportunities
+    </div>
+    <h1 class="hero-name">
+      Jyoti<br>
+      <span class="accent">Nayak</span>
+    </h1>
+    <p class="hero-subtitle">AI Engineer · Defence Tech · Full Stack</p>
+    <p class="hero-desc">
+      B.Tech CSE student (Batch 2027) building AI systems for real-world impact.
+      Focused on Generative AI, RAG pipelines, and Defence AI.
+      Currently interning with <strong style="color:var(--text)">UDAAN IAF</strong>.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="https://github.com/jyotinayak321" target="_blank" class="btn-outline">GitHub ↗</a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="profile-card">
+      <div class="profile-avatar">JN</div>
+      <h3>Jyoti Nayak</h3>
+      <p>CBS Group of Institutes · MDU · CSE</p>
+      <div class="stat-row">
+        <div class="stat-box">
+          <span class="num">7.9</span>
+          <span class="lbl">CGPA</span>
+        </div>
+        <div class="stat-box">
+          <span class="num" style="color:var(--accent2)">3rd</span>
+          <span class="lbl">Year B.Tech</span>
+        </div>
+        <div class="stat-box">
+          <span class="num">4</span>
+          <span class="lbl">GCP Badges</span>
+        </div>
+        <div class="stat-box">
+          <span class="num" style="color:var(--accent3)">IAF</span>
+          <span class="lbl">Intern</span>
+        </div>
+      </div>
+      <div class="badge-row">
+        <span class="badge iaf">🛡 Defence AI</span>
+        <span class="badge ai">⚡ GenAI</span>
+        <span class="badge">RAG</span>
+        <span class="badge">FastAPI</span>
+        <span class="badge">Python</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider" />
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">// Selected Work</p>
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-icon purple">🤖</div>
+      <h3>Autonomous AI Career Mentor &amp; Resume Analyzer</h3>
+      <p>
+        An end-to-end AI system that analyzes resumes, provides personalized career mentoring,
+        and suggests job opportunities using RAG pipelines, semantic search, and Groq's LLM API.
+        Built with FastAPI backend and React frontend.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">FastAPI</span>
+        <span class="tech-tag">LangChain</span>
+        <span class="tech-tag">FAISS</span>
+        <span class="tech-tag">MongoDB</span>
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">Groq API</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/jyotinayak321" target="_blank" class="project-btn github">GitHub ↗</a>
+        <a href="https://ai-career-mentor-lb48nz5fv-rajeshware321-7031s-projects.vercel.app/dashboard" target="_blank" class="project-btn live">Live Demo ↗</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon teal">🛰</div>
+      <h3>Satellite Image Threat Detection</h3>
+      <p>
+        Defence-aligned AI system using YOLOv8 and PyTorch for real-time threat detection
+        in satellite imagery. Designed for strategic surveillance applications.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-tag">YOLOv8</span>
+        <span class="tech-tag">PyTorch</span>
+        <span class="tech-tag">OpenCV</span>
+        <span class="tech-tag">FastAPI</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/jyotinayak321" target="_blank" class="project-btn github">GitHub ↗</a>
+        <a href="YOUR_DEPLOY_LINK_HERE" target="_blank" class="project-btn live">Live Demo ↗</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon purple">📄</div>
+      <h3>PDF-Based RAG AI System</h3>
+      <p>
+        Production RAG system enabling semantic Q&amp;A over custom PDF documents using
+        ChromaDB vector store, LangChain, and Groq's llama-3.3-70b model.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-tag">LangChain</span>
+        <span class="tech-tag">ChromaDB</span>
+        <span class="tech-tag">Groq API</span>
+        <span class="tech-tag">pypdf</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/jyotinayak321/PDF-Based-RAG-AI-System" target="_blank" class="project-btn github">GitHub ↗</a>
+        <a href="YOUR_DEPLOY_LINK_HERE" target="_blank" class="project-btn live">Live Demo ↗</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon coral">🩺</div>
+      <h3>AI Medical Image Diagnosis</h3>
+      <p>
+        Web app for AI-assisted medical image analysis with Grad-CAM heatmap visualization
+        and automated PDF diagnostic report generation.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-tag">FastAPI</span>
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">Grad-CAM</span>
+        <span class="tech-tag">ReportLab</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/jyotinayak321" target="_blank" class="project-btn github">GitHub ↗</a>
+        <a href="YOUR_DEPLOY_LINK_HERE" target="_blank" class="project-btn live">Live Demo ↗</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-icon teal">🌱</div>
+      <h3>Carbon Tracker</h3>
+      <p>
+        Full-stack web app for tracking and visualizing personal carbon footprint.
+        Deployed on Vercel with Vite + React frontend and Python backend.
+      </p>
+      <div class="tech-stack">
+        <span class="tech-tag">React</span>
+        <span class="tech-tag">Vite</span>
+        <span class="tech-tag">Python</span>
+        <span class="tech-tag">Vercel</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/jyotinayak321" target="_blank" class="project-btn github">GitHub ↗</a>
+        <a href="YOUR_DEPLOY_LINK_HERE" target="_blank" class="project-btn live">Live Demo ↗</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">// Technical Stack</p>
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-group">
+      <h4>AI / ML</h4>
+      <div class="skill-item">
+        <span>LangChain</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>RAG Pipelines</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>YOLOv8</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>PyTorch</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h4>Backend</h4>
+      <div class="skill-item">
+        <span>Python</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:90%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>FastAPI</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:80%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>MongoDB</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:65%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>Java</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:55%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h4>Frontend</h4>
+      <div class="skill-item">
+        <span>React</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>Vite</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>HTML / CSS</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>JavaScript</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:68%"></div></div>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h4>Tools &amp; Cloud</h4>
+      <div class="skill-item">
+        <span>Git / GitHub</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:85%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>Google Cloud</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:65%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>Vercel</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:70%"></div></div>
+      </div>
+      <div class="skill-item">
+        <span>PyMuPDF</span>
+        <div class="skill-bar"><div class="skill-fill teal" style="width:60%"></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- CERTIFICATIONS -->
+<section id="certs">
+  <p class="section-label">// Credentials</p>
+  <h2 class="section-title">Certifications</h2>
+
+  <div class="cert-grid">
+
+    <div class="cert-card">
+      <div class="cert-icon">☁️</div>
+      <div class="cert-info">
+        <h4>Responsible AI — Google Cloud</h4>
+        <p>Google Skills Boost · Credly Badge</p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">🧠</div>
+      <div class="cert-info">
+        <h4>Introduction to LLMs — Google Cloud</h4>
+        <p>Google Skills Boost · Credly Badge</p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">⚡</div>
+      <div class="cert-info">
+        <h4>Generative AI — Google Cloud</h4>
+        <p>Google Skills Boost · Credly Badge</p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">📊</div>
+      <div class="cert-info">
+        <h4>GenAI Powered Data Analytics — TATA</h4>
+        <p>TATA / Forage · Job Simulation</p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">💼</div>
+      <div class="cert-info">
+        <h4>Technology Job Simulation — Deloitte</h4>
+        <p>Deloitte / Forage</p>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">🛡</div>
+      <div class="cert-info">
+        <h4>UDAAN IAF — Internship</h4>
+        <p>Indian Air Force · May 2026</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap">
+
+    <div class="contact-left">
+      <p class="section-label">// Get In Touch</p>
+      <h2>Let's Build<br>Something.</h2>
+      <p>
+        Open to Software Engineer roles, Defence AI collaborations,
+        and interesting AI/ML projects. Currently preparing for AFCAT &amp; CDS
+        alongside my B.Tech.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:rajeshware321@gmail.com" class="contact-link">
+          <span class="contact-link-icon">✉️</span>
+          rajeshware321@gmail.com
+        </a>
+        <a href="https://github.com/jyotinayak321" target="_blank" class="contact-link">
+          <span class="contact-link-icon">💻</span>
+          github.com/jyotinayak321
+        </a>
+        <a href="https://linkedin.com/in/jyoti-nayak-988611290" target="_blank" class="contact-link">
+          <span class="contact-link-icon">🔗</span>
+          linkedin.com/in/jyoti-nayak
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" placeholder="e.g. Recruiter at Google" />
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="hello@company.com" />
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea rows="5" placeholder="Tell me about the opportunity..."></textarea>
+      </div>
+      <button class="btn-primary" style="width:fit-content">Send Message →</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span>© 2025 Jyoti Nayak · CBS Group of Institutes</span>
+  <span style="color:var(--accent)">Targeting Google SWE &amp; Defence AI</span>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
