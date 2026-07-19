@@ -1,2 +1,2 @@
 # MY_PORTFOLIO
-**Aspiring B.Tech student with a growing interest in AI and technology, currently building skills through projects, internships, and continuous learning. Passionate about problem-solving, programming, and exploring innovative tools while developing a strong foundation for a future career in the tech industry.**
+**Aspiring B.Tech CSE student (Batch 2027) with a strong and growing interest in AI, Machine Learning, and full-stack development. Currently building real-world skills through hands-on projects, a Defence AI internship, and continuous self-learning. Passionate about problem-solving, clean code, and exploring emerging AI tools — working toward a future career as a Software/AI Engineer at a product-based company.**
